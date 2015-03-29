@@ -23,9 +23,9 @@
  * Struct defining pins, direction and inital state 
  */
 static struct gpio leds[] = {
-		{  4, GPIOF_OUT_INIT_HIGH, "LED 1" },
-		{ 25, GPIOF_OUT_INIT_HIGH, "LED 2" },
-		{ 24, GPIOF_OUT_INIT_HIGH, "LED 3" },
+//		{  4, GPIOF_OUT_INIT_HIGH, "LED 1" },
+//		{ 25, GPIOF_OUT_INIT_HIGH, "LED 2" },
+		{ 21, GPIOF_OUT_INIT_HIGH, "LED 3" },
 };
 
 /*
